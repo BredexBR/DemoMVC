@@ -1,0 +1,72 @@
+# Ignore directories related to build results
+bin/
+obj/
+
+# User-specific files and configurations
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio specific folders
+.vscode/
+.vs/
+
+# Resharper and Rider files
+_ReSharper.Caches/
+.idea/
+.idea_modules/
+*.sln.iml
+
+# Ignore NuGet packages folder
+packages/
+*.nupkg
+# Uncomment if necessary however generally it will be restored upon build
+# !**/packages/build/
+# !**/packages/repositories.config
+
+# Ignore files generated during publish
+PublishOutput/
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# IIS Express configuration
+/.vs/config/applicationhost.config
+
+# Logs
+*.log
+Logs/
+
+# Node modules
+node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Office Temp Files
+~$*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IDE specific files
+.project
+.idea/
+*.tmproj
+*.sln.docstates
+*.sw?
+
+# NPM package files
+package-lock.json
+yarn.lock
+
+# My project
+sensVars.cs
